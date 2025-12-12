@@ -2,6 +2,7 @@
 
 ## **1. No-Cookie Challenge**
 **Purpose:** Detect users that do not support cookies, which is common for bots.\
+**Quick note:** Using just a 'Block' would reject every new visitor (since they do not have cookies yet), so I used a Managed Challenge instead. After passing the check, Cloudflare issues a clearance cookie that allows real users to bypass the rule automatically, while bots that cannot save cookies get stuck in a loop.\
 **Expression:** (http.cookie eq "")\
 **Screenshot:**\
 <img width="635" height="539" alt="rule" src="https://github.com/user-attachments/assets/8aca07eb-b41a-4407-9161-a4652d02da2a" />
