@@ -1,4 +1,4 @@
-# 🛡️ Cloudflare WAF Security Project (Basic Security WAF Setup)
+# Cloudflare WAF Security Project (Basic Security WAF Setup)
 
 **Domain:** https://ivanslab.com  
 
@@ -8,13 +8,10 @@ This project demonstrates how I made and tested a **Web Application Firewall (WA
 
 # **The goal of this project is to demonstrate:**
 
--My ability to use Cloudflare’s security features, including Security Rules, WAF settings, Security Analytics, and DNS configuration.
-
--My understanding of common web attacks such as SQL Injection (SQLi), Cross-Site Scripting (XSS), Remote Code Execution (RCE), Directory Traversal, incorrect HTTP methods, and bot patterns like missing cookies. 
-
--My skills in creating both Cloudflare’s automated ML-based rules and custom regex rules for detection and protection.
-
--My ability to configure, test, and validate WAF rules using practical cURL-based testing and Cloudflare’s event logs.
+-My ability to use Cloudflare’s security features, including Security Rules, WAF settings, Security Analytics, and DNS configuration.\
+-My understanding of common web attacks such as SQL Injection (SQLi), Cross-Site Scripting (XSS), Remote Code Execution (RCE), Directory Traversal, incorrect HTTP methods, and bot patterns like missing cookies.\
+-My skills in creating both Cloudflare’s automated ML-based rules and custom regex rules for detection and protection.\
+-My ability to configure, test, and validate WAF rules using practical cURL-based testing and Cloudflare’s event logs.\
 
 
 # Project Overview
@@ -138,7 +135,3 @@ I implemented **12 Cloudflare WAF Rules**:
 <img width="635" height="597" alt="rule" src="https://github.com/user-attachments/assets/e6797645-a78e-4a50-98dd-874019551cda" />
 
 
-
-
-Screenshot
-<img width="1297" alt="overall-score-rule" src="PLACEHOLDER_LINK_HERE" />
