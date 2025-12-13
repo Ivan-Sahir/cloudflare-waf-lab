@@ -53,7 +53,7 @@ The WAF configuration was designed to provide protection against common **OWASP 
 * Breakdown of all 11 security rules.
 
 
-### 2. [Testing & Verification]9Tests.md)
+### 2. [Testing & Verification](Tests.md)
 * **Evidence:** Logs from `Security -> Analytics -> Events` showing the WAF successfully blocking live attacks.
 * **Tests:** Includes tests for no cookie rule, wrong http method, directory traversal, no headers rule, regexe and ML score rule.
 
